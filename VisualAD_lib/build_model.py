@@ -44,9 +44,6 @@ def build_model(name: str, state_dict: dict, design_details = None):
     if "visual.positional_embedding" in state_dict:
         loaded_pos_embed = state_dict["visual.positional_embedding"]
 
-        # The loaded checkpoint has [class, patches...] positions
-        # Our model has separate: positional_embedding_frozen [class, patches...] and anomaly_pos/normal_pos
-
         # Initialize frozen positional embeddings (class + patches)
         state_dict["visual.positional_embedding_frozen"] = loaded_pos_embed
 
