@@ -62,13 +62,12 @@ Main dependencies: PyTorch >= 2.0, torchvision, timm, scikit-learn, scipy, tqdm.
 
 ### 2. Data Preparation
 
-We follow the standard dataset layout for anomaly detection benchmarks. Generate dataset JSON files using the provided scripts:
+We adopt the same dataset structure and JSON format as [AnomalyCLIP](https://github.com/zqhang/AnomalyCLIP). Please refer to their repository for dataset download and organization details.
+
+We also provide scripts to generate the required JSON metadata files:
 
 ```bash
-# Example: generate MVTec-AD metadata
 python generate_dataset_json/mvtec.py
-
-# Example: generate VisA metadata
 python generate_dataset_json/visa.py
 ```
 
