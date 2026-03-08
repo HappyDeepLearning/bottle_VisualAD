@@ -83,37 +83,15 @@ We provide pre-trained checkpoints with the CLIP (ViT-L/14@336px) backbone:
 | VisA | `weight/train_on_visa/CLIP.pth` | MVTec-AD and other cross-dataset benchmarks |
 | MVTec-AD | `weight/train_on_mvtec/CLIP.pth` | VisA |
 
-### 4. Training
+### 4. Quick Start
 
-```bash
-python train.py \
-    --train_data_path /path/to/dataset \
-    --save_path ./checkpoints \
-    --train_dataset visa \
-    --backbone "ViT-L/14@336px" \
-    --epoch 2 \
-    --batch_size 8 \
-    --device cuda:0
-```
-
-### 5. Testing
-
-```bash
-python test.py \
-    --test_data_path /path/to/dataset \
-    --checkpoint_path ./weight/train_on_visa/CLIP.pth \
-    --test_dataset mvtec \
-    --save_path ./results \
-    --device cuda:0
-```
-
-### 6. Cross-Dataset Evaluation
-
-Run the full cross-dataset evaluation pipeline (MVTec-AD <-> VisA):
+Run the full cross-dataset training and evaluation pipeline (MVTec-AD <-> VisA) with a single command:
 
 ```bash
 bash scripts/CLIP.sh
 ```
+
+Please modify the dataset paths in `scripts/CLIP.sh` before running.
 
 ## Citation
 
