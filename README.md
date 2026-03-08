@@ -14,7 +14,7 @@ This is the official PyTorch implementation of:
 
 ## Highlights
 
-- **Language-Free**: VisualAD removes the text encoder entirely and learns anomaly/normal prototypes purely in the visual feature space, reducing trainable parameters by over 99% compared to text-prompt-based methods.
+- **Language-Free**: VisualAD removes the text encoder entirely and learns anomaly/normal prototypes purely in the visual feature space.
 - **Two Learnable Tokens**: An anomaly token and a normal token are inserted into a frozen ViT, interacting with patch tokens through multi-layer self-attention to encode normality and abnormality.
 - **SCA & SAF Modules**: Spatial-Aware Cross-Attention (SCA) injects fine-grained spatial evidence into the tokens; Self-Alignment Function (SAF) recalibrates patch features before anomaly scoring.
 - **13 Benchmarks**: State-of-the-art performance across 6 industrial and 7 medical zero-shot anomaly detection benchmarks.
