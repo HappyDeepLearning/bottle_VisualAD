@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/CVPR-2026-blue" alt="CVPR 2026"></a>
-  <a href="#"><img src="https://img.shields.io/badge/arXiv-coming soon-b31b1b" alt="arXiv"></a>
+  <a href="https://arxiv.org/abs/2603.07952"><img src="https://img.shields.io/badge/arXiv-2603.07952-b31b1b" alt="arXiv"></a>
   <a href="#"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License"></a>
 </p>
 
@@ -91,10 +91,10 @@ Please modify the dataset paths in `scripts/CLIP.sh` before running.
 If you find this work useful, please consider citing:
 
 ```bibtex
-@inproceedings{visualad2026,
+@article{hou2026visualad,
   title={VisualAD: Language-Free Zero-Shot Anomaly Detection via Vision Transformer},
-  author={},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  author={Hou, Yanning and Li, Peiyuan and Liu, Zirui and Wang, Yitong and Ruan, Yanran and Qiu, Jianfeng and Xu, Ke},
+  journal={arXiv preprint arXiv:2603.07952},
   year={2026}
 }
 ```
