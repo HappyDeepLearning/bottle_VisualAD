@@ -102,3 +102,10 @@ If you find this work useful, please consider citing:
 ## Acknowledgements
 
 This project builds upon [CLIP](https://github.com/openai/CLIP) and [DINOv2](https://github.com/facebookresearch/dinov2). We thank the authors of [AnomalyCLIP](https://github.com/zqhang/AnomalyCLIP) and [AdaCLIP](https://github.com/caoyunkang/AdaCLIP) for their open-source implementations.
+
+## Contact
+
+If you have any questions, feel free to reach out:
+
+- **Email**: yanning_hou@nudt.edu.cn
+- **WeChat**: HYNing777
