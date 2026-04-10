@@ -43,3 +43,8 @@ logs/
 .env
 venv/
 env/
+own_datasets
+.codex
+weight/
+runs
+*.pth

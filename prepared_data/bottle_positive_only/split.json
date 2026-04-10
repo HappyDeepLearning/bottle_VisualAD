@@ -1,0 +1,3978 @@
+{
+  "project_root": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD",
+  "source_root": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets",
+  "seed": 42,
+  "val_ratio": 0.2,
+  "train": [
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/label/20260303153503.052.jpeg",
+      "relative_path": "70G/label/20260303153503.052.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "label",
+      "group_key": "70G/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/label/20260322205307.130.jpeg",
+      "relative_path": "70G/label/20260322205307.130.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "label",
+      "group_key": "70G/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/label/20260322231317.938.jpeg",
+      "relative_path": "70G/label/20260322231317.938.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "label",
+      "group_key": "70G/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/label/20260322231646.306.jpeg",
+      "relative_path": "70G/label/20260322231646.306.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "label",
+      "group_key": "70G/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/label/20260303152902.346.jpeg",
+      "relative_path": "70G/label/20260303152902.346.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "label",
+      "group_key": "70G/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/label/20260322205300.705.jpeg",
+      "relative_path": "70G/label/20260322205300.705.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "label",
+      "group_key": "70G/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/label/20260322231643.300.jpeg",
+      "relative_path": "70G/label/20260322231643.300.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "label",
+      "group_key": "70G/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/label/20260303153517.765.jpeg",
+      "relative_path": "70G/label/20260303153517.765.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "label",
+      "group_key": "70G/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/label/20260303143822.016.jpeg",
+      "relative_path": "70G/label/20260303143822.016.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "label",
+      "group_key": "70G/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/label/20260303153613.292.jpeg",
+      "relative_path": "70G/label/20260303153613.292.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "label",
+      "group_key": "70G/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/label/20260303143838.083.jpeg",
+      "relative_path": "70G/label/20260303143838.083.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "label",
+      "group_key": "70G/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/label/20260322231326.506.jpeg",
+      "relative_path": "70G/label/20260322231326.506.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "label",
+      "group_key": "70G/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/label/20260303152951.699.jpeg",
+      "relative_path": "70G/label/20260303152951.699.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "label",
+      "group_key": "70G/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/label/20260303153440.839.jpeg",
+      "relative_path": "70G/label/20260303153440.839.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "label",
+      "group_key": "70G/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/label/20260303143801.639.jpeg",
+      "relative_path": "70G/label/20260303143801.639.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "label",
+      "group_key": "70G/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/label/20260303143857.644.jpeg",
+      "relative_path": "70G/label/20260303143857.644.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "label",
+      "group_key": "70G/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/label/20260322231836.085.jpeg",
+      "relative_path": "70G/label/20260322231836.085.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "label",
+      "group_key": "70G/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/spoon/20260302154619.073.jpeg",
+      "relative_path": "70G/spoon/20260302154619.073.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "spoon",
+      "group_key": "70G/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/spoon/20260302155049.459.jpeg",
+      "relative_path": "70G/spoon/20260302155049.459.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "spoon",
+      "group_key": "70G/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/spoon/20260302154948.424.jpeg",
+      "relative_path": "70G/spoon/20260302154948.424.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "spoon",
+      "group_key": "70G/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/spoon/20260302154812.591.jpeg",
+      "relative_path": "70G/spoon/20260302154812.591.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "spoon",
+      "group_key": "70G/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/spoon/20260302163512.256.jpeg",
+      "relative_path": "70G/spoon/20260302163512.256.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "spoon",
+      "group_key": "70G/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/spoon/20260302155040.690.jpeg",
+      "relative_path": "70G/spoon/20260302155040.690.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "spoon",
+      "group_key": "70G/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/spoon/20260302154328.963.jpeg",
+      "relative_path": "70G/spoon/20260302154328.963.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "spoon",
+      "group_key": "70G/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/spoon/20260302155040.004.jpeg",
+      "relative_path": "70G/spoon/20260302155040.004.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "spoon",
+      "group_key": "70G/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/spoon/20260302154343.565.jpeg",
+      "relative_path": "70G/spoon/20260302154343.565.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "spoon",
+      "group_key": "70G/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/spoon/20260302154550.170.jpeg",
+      "relative_path": "70G/spoon/20260302154550.170.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "spoon",
+      "group_key": "70G/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/spoon/20260302154957.002.jpeg",
+      "relative_path": "70G/spoon/20260302154957.002.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "spoon",
+      "group_key": "70G/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/spoon/20260302154607.598.jpeg",
+      "relative_path": "70G/spoon/20260302154607.598.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "spoon",
+      "group_key": "70G/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/spoon/20260302154605.636.jpeg",
+      "relative_path": "70G/spoon/20260302154605.636.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "spoon",
+      "group_key": "70G/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/spoon/20260302155032.019.jpeg",
+      "relative_path": "70G/spoon/20260302155032.019.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "spoon",
+      "group_key": "70G/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/spoon/20260302154912.511.jpeg",
+      "relative_path": "70G/spoon/20260302154912.511.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "spoon",
+      "group_key": "70G/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/spoon/20260302154922.141.jpeg",
+      "relative_path": "70G/spoon/20260302154922.141.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "spoon",
+      "group_key": "70G/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/spoon/20260302155004.817.jpeg",
+      "relative_path": "70G/spoon/20260302155004.817.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "spoon",
+      "group_key": "70G/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/spoon/20260302154606.622.jpeg",
+      "relative_path": "70G/spoon/20260302154606.622.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "spoon",
+      "group_key": "70G/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/spoon/20260302155013.474.jpeg",
+      "relative_path": "70G/spoon/20260302155013.474.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "spoon",
+      "group_key": "70G/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/spoon/20260302152322.351.jpeg",
+      "relative_path": "70G/spoon/20260302152322.351.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "spoon",
+      "group_key": "70G/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/spoon/20260302155023.249.jpeg",
+      "relative_path": "70G/spoon/20260302155023.249.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "spoon",
+      "group_key": "70G/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/spoon/20260302155014.483.jpeg",
+      "relative_path": "70G/spoon/20260302155014.483.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "spoon",
+      "group_key": "70G/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/spoon/20260302154620.244.jpeg",
+      "relative_path": "70G/spoon/20260302154620.244.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "spoon",
+      "group_key": "70G/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/spoon/20260302154947.534.jpeg",
+      "relative_path": "70G/spoon/20260302154947.534.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "spoon",
+      "group_key": "70G/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/spoon/20260302155031.155.jpeg",
+      "relative_path": "70G/spoon/20260302155031.155.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "spoon",
+      "group_key": "70G/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/spoon/20260302154930.115.jpeg",
+      "relative_path": "70G/spoon/20260302154930.115.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "spoon",
+      "group_key": "70G/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/spoon/20260302155022.360.jpeg",
+      "relative_path": "70G/spoon/20260302155022.360.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "spoon",
+      "group_key": "70G/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/spoon/20260302154921.142.jpeg",
+      "relative_path": "70G/spoon/20260302154921.142.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "spoon",
+      "group_key": "70G/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/spoon/20260302163513.713.jpeg",
+      "relative_path": "70G/spoon/20260302163513.713.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "spoon",
+      "group_key": "70G/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/label/Image037.PNG",
+      "relative_path": "90g/label/Image037.PNG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "label",
+      "group_key": "90g/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/label/Image030.PNG",
+      "relative_path": "90g/label/Image030.PNG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "label",
+      "group_key": "90g/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/label/Image029.PNG",
+      "relative_path": "90g/label/Image029.PNG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "label",
+      "group_key": "90g/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/label/Image019.PNG",
+      "relative_path": "90g/label/Image019.PNG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "label",
+      "group_key": "90g/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/label/Image031.PNG",
+      "relative_path": "90g/label/Image031.PNG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "label",
+      "group_key": "90g/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/label/Image018.PNG",
+      "relative_path": "90g/label/Image018.PNG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "label",
+      "group_key": "90g/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/label/Image099.JPG",
+      "relative_path": "90g/label/Image099.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "label",
+      "group_key": "90g/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/label/Image036.PNG",
+      "relative_path": "90g/label/Image036.PNG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "label",
+      "group_key": "90g/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/label/Image017.PNG",
+      "relative_path": "90g/label/Image017.PNG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "label",
+      "group_key": "90g/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/label/Image027.PNG",
+      "relative_path": "90g/label/Image027.PNG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "label",
+      "group_key": "90g/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/label/Image072.PNG",
+      "relative_path": "90g/label/Image072.PNG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "label",
+      "group_key": "90g/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/label/Image023.PNG",
+      "relative_path": "90g/label/Image023.PNG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "label",
+      "group_key": "90g/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/label/Image021.PNG",
+      "relative_path": "90g/label/Image021.PNG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "label",
+      "group_key": "90g/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/label/Image015.PNG",
+      "relative_path": "90g/label/Image015.PNG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "label",
+      "group_key": "90g/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/label/Image016.PNG",
+      "relative_path": "90g/label/Image016.PNG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "label",
+      "group_key": "90g/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/label/Image020.PNG",
+      "relative_path": "90g/label/Image020.PNG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "label",
+      "group_key": "90g/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/label/Image032.PNG",
+      "relative_path": "90g/label/Image032.PNG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "label",
+      "group_key": "90g/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/label/Image025.PNG",
+      "relative_path": "90g/label/Image025.PNG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "label",
+      "group_key": "90g/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/label/Image034.PNG",
+      "relative_path": "90g/label/Image034.PNG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "label",
+      "group_key": "90g/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/label/Image035.PNG",
+      "relative_path": "90g/label/Image035.PNG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "label",
+      "group_key": "90g/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image027.JPG",
+      "relative_path": "90g/spoon/Image027.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image045.JPG",
+      "relative_path": "90g/spoon/Image045.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image188.JPG",
+      "relative_path": "90g/spoon/Image188.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image101.JPG",
+      "relative_path": "90g/spoon/Image101.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image091.JPG",
+      "relative_path": "90g/spoon/Image091.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image171.JPG",
+      "relative_path": "90g/spoon/Image171.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image106.JPG",
+      "relative_path": "90g/spoon/Image106.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image089.JPG",
+      "relative_path": "90g/spoon/Image089.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image035.JPG",
+      "relative_path": "90g/spoon/Image035.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image014.JPG",
+      "relative_path": "90g/spoon/Image014.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image114.JPG",
+      "relative_path": "90g/spoon/Image114.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image043.JPG",
+      "relative_path": "90g/spoon/Image043.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image018.JPG",
+      "relative_path": "90g/spoon/Image018.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image074.JPG",
+      "relative_path": "90g/spoon/Image074.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image033.JPG",
+      "relative_path": "90g/spoon/Image033.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image062.JPG",
+      "relative_path": "90g/spoon/Image062.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image140.JPG",
+      "relative_path": "90g/spoon/Image140.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image056.JPG",
+      "relative_path": "90g/spoon/Image056.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image097.JPG",
+      "relative_path": "90g/spoon/Image097.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image075.JPG",
+      "relative_path": "90g/spoon/Image075.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image005.JPG",
+      "relative_path": "90g/spoon/Image005.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image107.JPG",
+      "relative_path": "90g/spoon/Image107.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image174.JPG",
+      "relative_path": "90g/spoon/Image174.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image010.JPG",
+      "relative_path": "90g/spoon/Image010.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image203.JPG",
+      "relative_path": "90g/spoon/Image203.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image072.JPG",
+      "relative_path": "90g/spoon/Image072.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image141.JPG",
+      "relative_path": "90g/spoon/Image141.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image124.JPG",
+      "relative_path": "90g/spoon/Image124.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image201.JPG",
+      "relative_path": "90g/spoon/Image201.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image095.JPG",
+      "relative_path": "90g/spoon/Image095.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image200.JPG",
+      "relative_path": "90g/spoon/Image200.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image032.JPG",
+      "relative_path": "90g/spoon/Image032.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image016.JPG",
+      "relative_path": "90g/spoon/Image016.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image058.JPG",
+      "relative_path": "90g/spoon/Image058.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image067.JPG",
+      "relative_path": "90g/spoon/Image067.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image159.JPG",
+      "relative_path": "90g/spoon/Image159.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image172.JPG",
+      "relative_path": "90g/spoon/Image172.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image052.JPG",
+      "relative_path": "90g/spoon/Image052.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image105.JPG",
+      "relative_path": "90g/spoon/Image105.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image179.JPG",
+      "relative_path": "90g/spoon/Image179.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image115.JPG",
+      "relative_path": "90g/spoon/Image115.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image175.JPG",
+      "relative_path": "90g/spoon/Image175.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image192.JPG",
+      "relative_path": "90g/spoon/Image192.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image121.JPG",
+      "relative_path": "90g/spoon/Image121.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image113.JPG",
+      "relative_path": "90g/spoon/Image113.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image034.JPG",
+      "relative_path": "90g/spoon/Image034.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image022.JPG",
+      "relative_path": "90g/spoon/Image022.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image071.JPG",
+      "relative_path": "90g/spoon/Image071.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image061.JPG",
+      "relative_path": "90g/spoon/Image061.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image085.JPG",
+      "relative_path": "90g/spoon/Image085.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image160.JPG",
+      "relative_path": "90g/spoon/Image160.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image149.JPG",
+      "relative_path": "90g/spoon/Image149.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image139.JPG",
+      "relative_path": "90g/spoon/Image139.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image185.JPG",
+      "relative_path": "90g/spoon/Image185.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image162.JPG",
+      "relative_path": "90g/spoon/Image162.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image094.JPG",
+      "relative_path": "90g/spoon/Image094.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image148.JPG",
+      "relative_path": "90g/spoon/Image148.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image011.JPG",
+      "relative_path": "90g/spoon/Image011.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image073.JPG",
+      "relative_path": "90g/spoon/Image073.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image161.JPG",
+      "relative_path": "90g/spoon/Image161.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image008.JPG",
+      "relative_path": "90g/spoon/Image008.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image031.JPG",
+      "relative_path": "90g/spoon/Image031.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image152.JPG",
+      "relative_path": "90g/spoon/Image152.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image104.JPG",
+      "relative_path": "90g/spoon/Image104.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image047.JPG",
+      "relative_path": "90g/spoon/Image047.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image199.JPG",
+      "relative_path": "90g/spoon/Image199.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image191.JPG",
+      "relative_path": "90g/spoon/Image191.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image198.JPG",
+      "relative_path": "90g/spoon/Image198.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image197.JPG",
+      "relative_path": "90g/spoon/Image197.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image077.JPG",
+      "relative_path": "90g/spoon/Image077.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image132.JPG",
+      "relative_path": "90g/spoon/Image132.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image157.JPG",
+      "relative_path": "90g/spoon/Image157.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image100.JPG",
+      "relative_path": "90g/spoon/Image100.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image194.JPG",
+      "relative_path": "90g/spoon/Image194.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image021.JPG",
+      "relative_path": "90g/spoon/Image021.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image147.JPG",
+      "relative_path": "90g/spoon/Image147.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image048.JPG",
+      "relative_path": "90g/spoon/Image048.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image020.JPG",
+      "relative_path": "90g/spoon/Image020.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image026.JPG",
+      "relative_path": "90g/spoon/Image026.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image078.JPG",
+      "relative_path": "90g/spoon/Image078.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image167.JPG",
+      "relative_path": "90g/spoon/Image167.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image082.JPG",
+      "relative_path": "90g/spoon/Image082.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image108.JPG",
+      "relative_path": "90g/spoon/Image108.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image039.JPG",
+      "relative_path": "90g/spoon/Image039.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image178.JPG",
+      "relative_path": "90g/spoon/Image178.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image135.JPG",
+      "relative_path": "90g/spoon/Image135.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image028.JPG",
+      "relative_path": "90g/spoon/Image028.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image046.JPG",
+      "relative_path": "90g/spoon/Image046.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image129.JPG",
+      "relative_path": "90g/spoon/Image129.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image173.JPG",
+      "relative_path": "90g/spoon/Image173.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image001.JPG",
+      "relative_path": "90g/spoon/Image001.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image117.JPG",
+      "relative_path": "90g/spoon/Image117.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image151.JPG",
+      "relative_path": "90g/spoon/Image151.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image112.JPG",
+      "relative_path": "90g/spoon/Image112.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image076.JPG",
+      "relative_path": "90g/spoon/Image076.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image153.JPG",
+      "relative_path": "90g/spoon/Image153.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image088.JPG",
+      "relative_path": "90g/spoon/Image088.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image182.JPG",
+      "relative_path": "90g/spoon/Image182.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image166.JPG",
+      "relative_path": "90g/spoon/Image166.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image030.JPG",
+      "relative_path": "90g/spoon/Image030.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image003.JPG",
+      "relative_path": "90g/spoon/Image003.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image142.JPG",
+      "relative_path": "90g/spoon/Image142.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image065.JPG",
+      "relative_path": "90g/spoon/Image065.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image136.JPG",
+      "relative_path": "90g/spoon/Image136.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image120.JPG",
+      "relative_path": "90g/spoon/Image120.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image195.JPG",
+      "relative_path": "90g/spoon/Image195.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image099.JPG",
+      "relative_path": "90g/spoon/Image099.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image181.JPG",
+      "relative_path": "90g/spoon/Image181.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image109.JPG",
+      "relative_path": "90g/spoon/Image109.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image041.JPG",
+      "relative_path": "90g/spoon/Image041.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image040.JPG",
+      "relative_path": "90g/spoon/Image040.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image029.JPG",
+      "relative_path": "90g/spoon/Image029.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image013.JPG",
+      "relative_path": "90g/spoon/Image013.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image024.JPG",
+      "relative_path": "90g/spoon/Image024.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image127.JPG",
+      "relative_path": "90g/spoon/Image127.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image131.JPG",
+      "relative_path": "90g/spoon/Image131.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image169.JPG",
+      "relative_path": "90g/spoon/Image169.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image190.JPG",
+      "relative_path": "90g/spoon/Image190.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image093.JPG",
+      "relative_path": "90g/spoon/Image093.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image183.JPG",
+      "relative_path": "90g/spoon/Image183.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image193.JPG",
+      "relative_path": "90g/spoon/Image193.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image110.JPG",
+      "relative_path": "90g/spoon/Image110.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image150.JPG",
+      "relative_path": "90g/spoon/Image150.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image170.JPG",
+      "relative_path": "90g/spoon/Image170.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image138.JPG",
+      "relative_path": "90g/spoon/Image138.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image144.JPG",
+      "relative_path": "90g/spoon/Image144.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image064.JPG",
+      "relative_path": "90g/spoon/Image064.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image036.JPG",
+      "relative_path": "90g/spoon/Image036.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image068.JPG",
+      "relative_path": "90g/spoon/Image068.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image037.JPG",
+      "relative_path": "90g/spoon/Image037.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image118.JPG",
+      "relative_path": "90g/spoon/Image118.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image165.JPG",
+      "relative_path": "90g/spoon/Image165.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image102.JPG",
+      "relative_path": "90g/spoon/Image102.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image128.JPG",
+      "relative_path": "90g/spoon/Image128.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image168.JPG",
+      "relative_path": "90g/spoon/Image168.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image180.JPG",
+      "relative_path": "90g/spoon/Image180.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image184.JPG",
+      "relative_path": "90g/spoon/Image184.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image146.JPG",
+      "relative_path": "90g/spoon/Image146.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image055.JPG",
+      "relative_path": "90g/spoon/Image055.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image017.JPG",
+      "relative_path": "90g/spoon/Image017.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image069.JPG",
+      "relative_path": "90g/spoon/Image069.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image103.JPG",
+      "relative_path": "90g/spoon/Image103.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image081.JPG",
+      "relative_path": "90g/spoon/Image081.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image009.JPG",
+      "relative_path": "90g/spoon/Image009.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image059.JPG",
+      "relative_path": "90g/spoon/Image059.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image015.JPG",
+      "relative_path": "90g/spoon/Image015.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image084.JPG",
+      "relative_path": "90g/spoon/Image084.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image176.JPG",
+      "relative_path": "90g/spoon/Image176.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image057.JPG",
+      "relative_path": "90g/spoon/Image057.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image143.JPG",
+      "relative_path": "90g/spoon/Image143.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image177.JPG",
+      "relative_path": "90g/spoon/Image177.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image164.JPG",
+      "relative_path": "90g/spoon/Image164.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image070.JPG",
+      "relative_path": "90g/spoon/Image070.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image098.JPG",
+      "relative_path": "90g/spoon/Image098.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image119.JPG",
+      "relative_path": "90g/spoon/Image119.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image042.JPG",
+      "relative_path": "90g/spoon/Image042.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image063.JPG",
+      "relative_path": "90g/spoon/Image063.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image187.JPG",
+      "relative_path": "90g/spoon/Image187.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image137.JPG",
+      "relative_path": "90g/spoon/Image137.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image044.JPG",
+      "relative_path": "90g/spoon/Image044.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image163.JPG",
+      "relative_path": "90g/spoon/Image163.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image156.JPG",
+      "relative_path": "90g/spoon/Image156.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164030.693.jpeg",
+      "relative_path": "YJ/label/20251106164030.693.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164116.750.jpeg",
+      "relative_path": "YJ/label/20251106164116.750.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163743.818.jpeg",
+      "relative_path": "YJ/label/20251106163743.818.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163816.265.jpeg",
+      "relative_path": "YJ/label/20251106163816.265.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/16-11-57-4653.jpg",
+      "relative_path": "YJ/label/16-11-57-4653.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/01-41-17-3508 - copy.jpg",
+      "relative_path": "YJ/label/01-41-17-3508 - copy.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163837.838.jpeg",
+      "relative_path": "YJ/label/20251106163837.838.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/01-41-52-4542 - copy.jpg",
+      "relative_path": "YJ/label/01-41-52-4542 - copy.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164052.249.jpeg",
+      "relative_path": "YJ/label/20251106164052.249.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163830.848.jpeg",
+      "relative_path": "YJ/label/20251106163830.848.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163807.431.jpeg",
+      "relative_path": "YJ/label/20251106163807.431.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164025.741.jpeg",
+      "relative_path": "YJ/label/20251106164025.741.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163936.666.jpeg",
+      "relative_path": "YJ/label/20251106163936.666.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164017.756.jpeg",
+      "relative_path": "YJ/label/20251106164017.756.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164045.292.jpeg",
+      "relative_path": "YJ/label/20251106164045.292.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163812.364.jpeg",
+      "relative_path": "YJ/label/20251106163812.364.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164004.190.jpeg",
+      "relative_path": "YJ/label/20251106164004.190.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163746.894.jpeg",
+      "relative_path": "YJ/label/20251106163746.894.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164136.209.jpeg",
+      "relative_path": "YJ/label/20251106164136.209.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164123.678.jpeg",
+      "relative_path": "YJ/label/20251106164123.678.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164024.724.jpeg",
+      "relative_path": "YJ/label/20251106164024.724.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163805.375.jpeg",
+      "relative_path": "YJ/label/20251106163805.375.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164112.774.jpeg",
+      "relative_path": "YJ/label/20251106164112.774.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/14-06-42-0177.jpg",
+      "relative_path": "YJ/label/14-06-42-0177.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163811.342.jpeg",
+      "relative_path": "YJ/label/20251106163811.342.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163745.861.jpeg",
+      "relative_path": "YJ/label/20251106163745.861.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163951.312.jpeg",
+      "relative_path": "YJ/label/20251106163951.312.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163737.843.jpeg",
+      "relative_path": "YJ/label/20251106163737.843.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163952.327.jpeg",
+      "relative_path": "YJ/label/20251106163952.327.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/09-35-39-6531.jpg",
+      "relative_path": "YJ/label/09-35-39-6531.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164022.678.jpeg",
+      "relative_path": "YJ/label/20251106164022.678.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164124.704.jpeg",
+      "relative_path": "YJ/label/20251106164124.704.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163844.731.jpeg",
+      "relative_path": "YJ/label/20251106163844.731.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/00-57-47-8461.jpg",
+      "relative_path": "YJ/label/00-57-47-8461.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163836.796.jpeg",
+      "relative_path": "YJ/label/20251106163836.796.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163810.288.jpeg",
+      "relative_path": "YJ/label/20251106163810.288.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163924.801.jpeg",
+      "relative_path": "YJ/label/20251106163924.801.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163953.365.jpeg",
+      "relative_path": "YJ/label/20251106163953.365.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164031.737.jpeg",
+      "relative_path": "YJ/label/20251106164031.737.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164115.679.jpeg",
+      "relative_path": "YJ/label/20251106164115.679.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163903.315.jpeg",
+      "relative_path": "YJ/label/20251106163903.315.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164117.784.jpeg",
+      "relative_path": "YJ/label/20251106164117.784.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/01-40-15-5791 - copy.jpg",
+      "relative_path": "YJ/label/01-40-15-5791 - copy.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163912.313.jpeg",
+      "relative_path": "YJ/label/20251106163912.313.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/00-57-41-6812.jpg",
+      "relative_path": "YJ/label/00-57-41-6812.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/01-40-08-1468 - copy.jpg",
+      "relative_path": "YJ/label/01-40-08-1468 - copy.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163930.755.jpeg",
+      "relative_path": "YJ/label/20251106163930.755.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163838.849.jpeg",
+      "relative_path": "YJ/label/20251106163838.849.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163751.854.jpeg",
+      "relative_path": "YJ/label/20251106163751.854.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/01-41-49-7029 - copy.jpg",
+      "relative_path": "YJ/label/01-41-49-7029 - copy.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163818.307.jpeg",
+      "relative_path": "YJ/label/20251106163818.307.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163932.782.jpeg",
+      "relative_path": "YJ/label/20251106163932.782.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164122.655.jpeg",
+      "relative_path": "YJ/label/20251106164122.655.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163950.278.jpeg",
+      "relative_path": "YJ/label/20251106163950.278.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163725.316.jpeg",
+      "relative_path": "YJ/label/20251106163725.316.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163744.876.jpeg",
+      "relative_path": "YJ/label/20251106163744.876.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164118.779.jpeg",
+      "relative_path": "YJ/label/20251106164118.779.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163859.379.jpeg",
+      "relative_path": "YJ/label/20251106163859.379.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164002.162.jpeg",
+      "relative_path": "YJ/label/20251106164002.162.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164055.142.jpeg",
+      "relative_path": "YJ/label/20251106164055.142.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163935.621.jpeg",
+      "relative_path": "YJ/label/20251106163935.621.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163831.902.jpeg",
+      "relative_path": "YJ/label/20251106163831.902.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164023.697.jpeg",
+      "relative_path": "YJ/label/20251106164023.697.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163926.833.jpeg",
+      "relative_path": "YJ/label/20251106163926.833.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/01-01-59-5813.jpg",
+      "relative_path": "YJ/label/01-01-59-5813.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/23-17-03-0900.jpg",
+      "relative_path": "YJ/label/23-17-03-0900.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164044.284.jpeg",
+      "relative_path": "YJ/label/20251106164044.284.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163740.912.jpeg",
+      "relative_path": "YJ/label/20251106163740.912.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163909.232.jpeg",
+      "relative_path": "YJ/label/20251106163909.232.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164137.240.jpeg",
+      "relative_path": "YJ/label/20251106164137.240.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163819.344.jpeg",
+      "relative_path": "YJ/label/20251106163819.344.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163739.881.jpeg",
+      "relative_path": "YJ/label/20251106163739.881.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163937.674.jpeg",
+      "relative_path": "YJ/label/20251106163937.674.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164019.801.jpeg",
+      "relative_path": "YJ/label/20251106164019.801.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163923.768.jpeg",
+      "relative_path": "YJ/label/20251106163923.768.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/01-36-45-3463 - copy.jpg",
+      "relative_path": "YJ/label/01-36-45-3463 - copy.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/16-15-09-1809.jpg",
+      "relative_path": "YJ/label/16-15-09-1809.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/01-40-10-8785 - copy.jpg",
+      "relative_path": "YJ/label/01-40-10-8785 - copy.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163858.338.jpeg",
+      "relative_path": "YJ/label/20251106163858.338.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164046.325.jpeg",
+      "relative_path": "YJ/label/20251106164046.325.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/15-14-23-5685.jpg",
+      "relative_path": "YJ/label/15-14-23-5685.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164121.622.jpeg",
+      "relative_path": "YJ/label/20251106164121.622.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164029.673.jpeg",
+      "relative_path": "YJ/label/20251106164029.673.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163857.299.jpeg",
+      "relative_path": "YJ/label/20251106163857.299.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163843.699.jpeg",
+      "relative_path": "YJ/label/20251106163843.699.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164056.228.jpeg",
+      "relative_path": "YJ/label/20251106164056.228.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/01-03-33-5287.jpg",
+      "relative_path": "YJ/label/01-03-33-5287.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164051.234.jpeg",
+      "relative_path": "YJ/label/20251106164051.234.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163804.349.jpeg",
+      "relative_path": "YJ/label/20251106163804.349.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163959.334.jpeg",
+      "relative_path": "YJ/label/20251106163959.334.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164057.256.jpeg",
+      "relative_path": "YJ/label/20251106164057.256.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163904.325.jpeg",
+      "relative_path": "YJ/label/20251106163904.325.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163958.303.jpeg",
+      "relative_path": "YJ/label/20251106163958.303.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163911.286.jpeg",
+      "relative_path": "YJ/label/20251106163911.286.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/01-36-12-5048 - copy.jpg",
+      "relative_path": "YJ/label/01-36-12-5048 - copy.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164058.281.jpeg",
+      "relative_path": "YJ/label/20251106164058.281.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163726.339.jpeg",
+      "relative_path": "YJ/label/20251106163726.339.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163750.828.jpeg",
+      "relative_path": "YJ/label/20251106163750.828.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/16-17-49-5864.jpg",
+      "relative_path": "YJ/label/16-17-49-5864.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163752.895.jpeg",
+      "relative_path": "YJ/label/20251106163752.895.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164109.688.jpeg",
+      "relative_path": "YJ/label/20251106164109.688.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164028.670.jpeg",
+      "relative_path": "YJ/label/20251106164028.670.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163910.257.jpeg",
+      "relative_path": "YJ/label/20251106163910.257.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164049.196.jpeg",
+      "relative_path": "YJ/label/20251106164049.196.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163900.394.jpeg",
+      "relative_path": "YJ/label/20251106163900.394.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164005.222.jpeg",
+      "relative_path": "YJ/label/20251106164005.222.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/00-47-12-2075.jpg",
+      "relative_path": "YJ/label/00-47-12-2075.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164003.168.jpeg",
+      "relative_path": "YJ/label/20251106164003.168.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163806.390.jpeg",
+      "relative_path": "YJ/label/20251106163806.390.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/01-41-47-7107 - copy.jpg",
+      "relative_path": "YJ/label/01-41-47-7107 - copy.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164018.774.jpeg",
+      "relative_path": "YJ/label/20251106164018.774.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163832.899.jpeg",
+      "relative_path": "YJ/label/20251106163832.899.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/09-43-47-9628.jpg",
+      "relative_path": "YJ/spoon/09-43-47-9628.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/10-15-35-5992.jpg",
+      "relative_path": "YJ/spoon/10-15-35-5992.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/15-29-49-1329.jpg",
+      "relative_path": "YJ/spoon/15-29-49-1329.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/09-47-38-2340.jpg",
+      "relative_path": "YJ/spoon/09-47-38-2340.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/15-36-20-9971.jpg",
+      "relative_path": "YJ/spoon/15-36-20-9971.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/09-49-23-7633.jpg",
+      "relative_path": "YJ/spoon/09-49-23-7633.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/15-28-20-9608.jpg",
+      "relative_path": "YJ/spoon/15-28-20-9608.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/09-39-07-4099.jpg",
+      "relative_path": "YJ/spoon/09-39-07-4099.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/22-05-44-6348.jpg",
+      "relative_path": "YJ/spoon/22-05-44-6348.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/14-52-33-5674.jpg",
+      "relative_path": "YJ/spoon/14-52-33-5674.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/21-58-54-0979.jpg",
+      "relative_path": "YJ/spoon/21-58-54-0979.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/22-00-28-6877.jpg",
+      "relative_path": "YJ/spoon/22-00-28-6877.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/09-57-09-9303.jpg",
+      "relative_path": "YJ/spoon/09-57-09-9303.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/15-42-04-5676.jpg",
+      "relative_path": "YJ/spoon/15-42-04-5676.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/15-35-56-8147.jpg",
+      "relative_path": "YJ/spoon/15-35-56-8147.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/09-47-14-9864.jpg",
+      "relative_path": "YJ/spoon/09-47-14-9864.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/15-37-14-2763.jpg",
+      "relative_path": "YJ/spoon/15-37-14-2763.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/14-48-50-0972.jpg",
+      "relative_path": "YJ/spoon/14-48-50-0972.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/23-11-39-5327.jpg",
+      "relative_path": "YJ/spoon/23-11-39-5327.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/13-39-11-6544.jpg",
+      "relative_path": "YJ/spoon/13-39-11-6544.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/23-11-49-8870.jpg",
+      "relative_path": "YJ/spoon/23-11-49-8870.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/22-58-08-1919.jpg",
+      "relative_path": "YJ/spoon/22-58-08-1919.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/10-15-30-7837.jpg",
+      "relative_path": "YJ/spoon/10-15-30-7837.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/21-58-53-8927.jpg",
+      "relative_path": "YJ/spoon/21-58-53-8927.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/18-14-57-2547.jpg",
+      "relative_path": "YJ/spoon/18-14-57-2547.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/12-18-49-7519.jpg",
+      "relative_path": "YJ/spoon/12-18-49-7519.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/22-29-24-8255.jpg",
+      "relative_path": "YJ/spoon/22-29-24-8255.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/09-41-41-6427.jpg",
+      "relative_path": "YJ/spoon/09-41-41-6427.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/22-03-38-2936.jpg",
+      "relative_path": "YJ/spoon/22-03-38-2936.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/09-49-19-8561.jpg",
+      "relative_path": "YJ/spoon/09-49-19-8561.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/09-49-14-6299.jpg",
+      "relative_path": "YJ/spoon/09-49-14-6299.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/22-57-04-6801.jpg",
+      "relative_path": "YJ/spoon/22-57-04-6801.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/09-49-06-2086.jpg",
+      "relative_path": "YJ/spoon/09-49-06-2086.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/15-53-56-0099.jpg",
+      "relative_path": "YJ/spoon/15-53-56-0099.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/14-46-27-8680.jpg",
+      "relative_path": "YJ/spoon/14-46-27-8680.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/15-36-21-2122.jpg",
+      "relative_path": "YJ/spoon/15-36-21-2122.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/23-20-15-0488.jpg",
+      "relative_path": "YJ/spoon/23-20-15-0488.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/09-46-35-4409.jpg",
+      "relative_path": "YJ/spoon/09-46-35-4409.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/18-15-23-4575.jpg",
+      "relative_path": "YJ/spoon/18-15-23-4575.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/10-12-49-7704.jpg",
+      "relative_path": "YJ/spoon/10-12-49-7704.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/18-15-51-5591.jpg",
+      "relative_path": "YJ/spoon/18-15-51-5591.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/09-54-46-7998.jpg",
+      "relative_path": "YJ/spoon/09-54-46-7998.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/12-18-59-6743.jpg",
+      "relative_path": "YJ/spoon/12-18-59-6743.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/23-42-21-9153.jpg",
+      "relative_path": "YJ/spoon/23-42-21-9153.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/23-47-37-2385.jpg",
+      "relative_path": "YJ/spoon/23-47-37-2385.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/22-25-18-1254.jpg",
+      "relative_path": "YJ/spoon/22-25-18-1254.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/23-11-49-5166.jpg",
+      "relative_path": "YJ/spoon/23-11-49-5166.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/13-35-27-7811.jpg",
+      "relative_path": "YJ/spoon/13-35-27-7811.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/11-30-35-2216.jpg",
+      "relative_path": "YJ/spoon/11-30-35-2216.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/09-42-16-0736.jpg",
+      "relative_path": "YJ/spoon/09-42-16-0736.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/10-13-28-6923.jpg",
+      "relative_path": "YJ/spoon/10-13-28-6923.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/23-00-14-2028.jpg",
+      "relative_path": "YJ/spoon/23-00-14-2028.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    }
+  ],
+  "val": [
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/label/20260322231835.760.jpeg",
+      "relative_path": "70G/label/20260322231835.760.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "label",
+      "group_key": "70G/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/label/20260303152741.722.jpeg",
+      "relative_path": "70G/label/20260303152741.722.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "label",
+      "group_key": "70G/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/label/20260322205308.342.jpeg",
+      "relative_path": "70G/label/20260322205308.342.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "label",
+      "group_key": "70G/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/label/20260303144158.293.jpeg",
+      "relative_path": "70G/label/20260303144158.293.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "label",
+      "group_key": "70G/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/spoon/20260302155048.650.jpeg",
+      "relative_path": "70G/spoon/20260302155048.650.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "spoon",
+      "group_key": "70G/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/spoon/20260302155005.765.jpeg",
+      "relative_path": "70G/spoon/20260302155005.765.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "spoon",
+      "group_key": "70G/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/spoon/20260302154930.845.jpeg",
+      "relative_path": "70G/spoon/20260302154930.845.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "spoon",
+      "group_key": "70G/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/spoon/20260302154913.539.jpeg",
+      "relative_path": "70G/spoon/20260302154913.539.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "spoon",
+      "group_key": "70G/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/spoon/20260302154938.524.jpeg",
+      "relative_path": "70G/spoon/20260302154938.524.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "spoon",
+      "group_key": "70G/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/spoon/20260302154956.126.jpeg",
+      "relative_path": "70G/spoon/20260302154956.126.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "spoon",
+      "group_key": "70G/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/70G/spoon/20260302154939.563.jpeg",
+      "relative_path": "70G/spoon/20260302154939.563.jpeg",
+      "label": 1,
+      "source_name": "70G",
+      "defect_type": "spoon",
+      "group_key": "70G/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/label/Image024.PNG",
+      "relative_path": "90g/label/Image024.PNG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "label",
+      "group_key": "90g/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/label/Image003.PNG",
+      "relative_path": "90g/label/Image003.PNG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "label",
+      "group_key": "90g/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/label/Image028.PNG",
+      "relative_path": "90g/label/Image028.PNG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "label",
+      "group_key": "90g/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/label/Image022.PNG",
+      "relative_path": "90g/label/Image022.PNG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "label",
+      "group_key": "90g/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/label/Image026.PNG",
+      "relative_path": "90g/label/Image026.PNG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "label",
+      "group_key": "90g/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image130.JPG",
+      "relative_path": "90g/spoon/Image130.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image060.JPG",
+      "relative_path": "90g/spoon/Image060.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image196.JPG",
+      "relative_path": "90g/spoon/Image196.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image123.JPG",
+      "relative_path": "90g/spoon/Image123.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image090.JPG",
+      "relative_path": "90g/spoon/Image090.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image122.JPG",
+      "relative_path": "90g/spoon/Image122.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image012.JPG",
+      "relative_path": "90g/spoon/Image012.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image158.JPG",
+      "relative_path": "90g/spoon/Image158.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image066.JPG",
+      "relative_path": "90g/spoon/Image066.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image087.JPG",
+      "relative_path": "90g/spoon/Image087.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image092.JPG",
+      "relative_path": "90g/spoon/Image092.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image025.JPG",
+      "relative_path": "90g/spoon/Image025.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image053.JPG",
+      "relative_path": "90g/spoon/Image053.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image019.JPG",
+      "relative_path": "90g/spoon/Image019.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image050.JPG",
+      "relative_path": "90g/spoon/Image050.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image116.JPG",
+      "relative_path": "90g/spoon/Image116.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image049.JPG",
+      "relative_path": "90g/spoon/Image049.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image006.JPG",
+      "relative_path": "90g/spoon/Image006.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image051.JPG",
+      "relative_path": "90g/spoon/Image051.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image111.JPG",
+      "relative_path": "90g/spoon/Image111.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image096.JPG",
+      "relative_path": "90g/spoon/Image096.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image054.JPG",
+      "relative_path": "90g/spoon/Image054.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image145.JPG",
+      "relative_path": "90g/spoon/Image145.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image079.JPG",
+      "relative_path": "90g/spoon/Image079.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image189.JPG",
+      "relative_path": "90g/spoon/Image189.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image186.JPG",
+      "relative_path": "90g/spoon/Image186.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image126.JPG",
+      "relative_path": "90g/spoon/Image126.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image133.JPG",
+      "relative_path": "90g/spoon/Image133.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image155.JPG",
+      "relative_path": "90g/spoon/Image155.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image134.JPG",
+      "relative_path": "90g/spoon/Image134.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image002.JPG",
+      "relative_path": "90g/spoon/Image002.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image125.JPG",
+      "relative_path": "90g/spoon/Image125.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image004.JPG",
+      "relative_path": "90g/spoon/Image004.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image086.JPG",
+      "relative_path": "90g/spoon/Image086.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image202.JPG",
+      "relative_path": "90g/spoon/Image202.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image038.JPG",
+      "relative_path": "90g/spoon/Image038.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image023.JPG",
+      "relative_path": "90g/spoon/Image023.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image083.JPG",
+      "relative_path": "90g/spoon/Image083.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image080.JPG",
+      "relative_path": "90g/spoon/Image080.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image007.JPG",
+      "relative_path": "90g/spoon/Image007.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/90g/spoon/Image154.JPG",
+      "relative_path": "90g/spoon/Image154.JPG",
+      "label": 1,
+      "source_name": "90g",
+      "defect_type": "spoon",
+      "group_key": "90g/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163905.353.jpeg",
+      "relative_path": "YJ/label/20251106163905.353.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/00-57-44-7028.jpg",
+      "relative_path": "YJ/label/00-57-44-7028.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163929.717.jpeg",
+      "relative_path": "YJ/label/20251106163929.717.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163956.248.jpeg",
+      "relative_path": "YJ/label/20251106163956.248.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/23-25-07-1953.jpg",
+      "relative_path": "YJ/label/23-25-07-1953.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163749.758.jpeg",
+      "relative_path": "YJ/label/20251106163749.758.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/01-41-20-0685 - copy.jpg",
+      "relative_path": "YJ/label/01-41-20-0685 - copy.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164110.712.jpeg",
+      "relative_path": "YJ/label/20251106164110.712.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163957.304.jpeg",
+      "relative_path": "YJ/label/20251106163957.304.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163845.761.jpeg",
+      "relative_path": "YJ/label/20251106163845.761.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163925.828.jpeg",
+      "relative_path": "YJ/label/20251106163925.828.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/01-40-10-8785.jpg",
+      "relative_path": "YJ/label/01-40-10-8785.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/16-14-38-8588.jpg",
+      "relative_path": "YJ/label/16-14-38-8588.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/17-43-24-3660.jpg",
+      "relative_path": "YJ/label/17-43-24-3660.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163931.777.jpeg",
+      "relative_path": "YJ/label/20251106163931.777.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164043.258.jpeg",
+      "relative_path": "YJ/label/20251106164043.258.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163842.676.jpeg",
+      "relative_path": "YJ/label/20251106163842.676.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163813.374.jpeg",
+      "relative_path": "YJ/label/20251106163813.374.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163906.377.jpeg",
+      "relative_path": "YJ/label/20251106163906.377.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164111.741.jpeg",
+      "relative_path": "YJ/label/20251106164111.741.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164050.195.jpeg",
+      "relative_path": "YJ/label/20251106164050.195.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163738.878.jpeg",
+      "relative_path": "YJ/label/20251106163738.878.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/00-57-43-7198.jpg",
+      "relative_path": "YJ/label/00-57-43-7198.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106164016.723.jpeg",
+      "relative_path": "YJ/label/20251106164016.723.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163833.911.jpeg",
+      "relative_path": "YJ/label/20251106163833.911.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163839.875.jpeg",
+      "relative_path": "YJ/label/20251106163839.875.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163938.726.jpeg",
+      "relative_path": "YJ/label/20251106163938.726.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/label/20251106163817.283.jpeg",
+      "relative_path": "YJ/label/20251106163817.283.jpeg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "label",
+      "group_key": "YJ/label"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/15-42-38-8224.jpg",
+      "relative_path": "YJ/spoon/15-42-38-8224.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/09-43-23-4680.jpg",
+      "relative_path": "YJ/spoon/09-43-23-4680.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/22-59-42-9616.jpg",
+      "relative_path": "YJ/spoon/22-59-42-9616.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/15-59-09-4540.jpg",
+      "relative_path": "YJ/spoon/15-59-09-4540.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/15-27-18-5885.jpg",
+      "relative_path": "YJ/spoon/15-27-18-5885.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/23-21-49-8223.jpg",
+      "relative_path": "YJ/spoon/23-21-49-8223.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/12-16-37-5260.jpg",
+      "relative_path": "YJ/spoon/12-16-37-5260.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/14-41-29-8616.jpg",
+      "relative_path": "YJ/spoon/14-41-29-8616.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/15-35-56-3995.jpg",
+      "relative_path": "YJ/spoon/15-35-56-3995.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/23-23-24-2194.jpg",
+      "relative_path": "YJ/spoon/23-23-24-2194.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/23-44-59-7888.jpg",
+      "relative_path": "YJ/spoon/23-44-59-7888.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/22-05-12-6969.jpg",
+      "relative_path": "YJ/spoon/22-05-12-6969.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    },
+    {
+      "path": "/raid/yusq_lab/c12332451/mjz/bottle_VisualAD/own_datasets/YJ/spoon/09-44-17-5437.jpg",
+      "relative_path": "YJ/spoon/09-44-17-5437.jpg",
+      "label": 1,
+      "source_name": "YJ",
+      "defect_type": "spoon",
+      "group_key": "YJ/spoon"
+    }
+  ],
+  "stats": {
+    "train": {
+      "count": 392,
+      "by_group": {
+        "70G/label": 17,
+        "70G/spoon": 29,
+        "90g/label": 20,
+        "90g/spoon": 162,
+        "YJ/label": 112,
+        "YJ/spoon": 52
+      },
+      "by_source": {
+        "70G": 46,
+        "90g": 182,
+        "YJ": 164
+      },
+      "by_defect_type": {
+        "label": 149,
+        "spoon": 243
+      }
+    },
+    "val": {
+      "count": 98,
+      "by_group": {
+        "70G/label": 4,
+        "70G/spoon": 7,
+        "90g/label": 5,
+        "90g/spoon": 41,
+        "YJ/label": 28,
+        "YJ/spoon": 13
+      },
+      "by_source": {
+        "70G": 11,
+        "90g": 46,
+        "YJ": 41
+      },
+      "by_defect_type": {
+        "label": 37,
+        "spoon": 61
+      }
+    },
+    "total_count": 490,
+    "labels": {
+      "normal": 0,
+      "anomaly": 1
+    },
+    "note": "Current metadata only contains anomaly images from own_datasets. This supports positive-only finetuning on top of the pretrained VisualAD checkpoint."
+  }
+}
