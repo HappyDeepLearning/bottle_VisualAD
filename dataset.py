@@ -54,6 +54,16 @@ class Dataset(data.Dataset):
         self.length = len(self.data_all)
 
         self.obj_list, self.class_name_map_class_id = generate_class_info(dataset_name)
+        if not self.obj_list:
+            self.obj_list = list(self.cls_names)
+            self.class_name_map_class_id = {name: idx for idx, name in enumerate(self.obj_list)}
+        self.has_anomaly_masks = any(
+            item.get('anomaly', 0) == 1 and
+            item.get('mask_path') and
+            os.path.isfile(os.path.join(self.root, item['mask_path']))
+            for item in self.data_all
+        )
+
     def __len__(self):
         return self.length
 
@@ -62,14 +72,17 @@ class Dataset(data.Dataset):
         img_path, mask_path, cls_name, specie_name, anomaly = data['img_path'], data['mask_path'], data['cls_name'], \
                                                               data['specie_name'], data['anomaly']
         img = Image.open(os.path.join(self.root, img_path))
+        seg_valid = 1
         if anomaly == 0:
             img_mask = Image.fromarray(np.zeros((img.size[0], img.size[1])), mode='L')
         else:
-            if os.path.isdir(os.path.join(self.root, mask_path)):
-                # just for classification not report error
+            full_mask_path = os.path.join(self.root, mask_path) if mask_path else None
+            if (not full_mask_path) or (not os.path.exists(full_mask_path)) or os.path.isdir(full_mask_path):
+                # classification-only anomaly sample without pixel annotation
                 img_mask = Image.fromarray(np.zeros((img.size[0], img.size[1])), mode='L')
+                seg_valid = 0
             else:
-                img_mask = np.array(Image.open(os.path.join(self.root, mask_path)).convert('L')) > 0
+                img_mask = np.array(Image.open(full_mask_path).convert('L')) > 0
                 img_mask = Image.fromarray(img_mask.astype(np.uint8) * 255, mode='L')
         # transforms
         img = self.transform(img) if self.transform is not None else img
@@ -79,4 +92,4 @@ class Dataset(data.Dataset):
         # Handle unknown class names by assigning a default ID
         cls_id = self.class_name_map_class_id.get(cls_name, 0)
         return {'img': img, 'img_mask': img_mask, 'cls_name': cls_name, 'anomaly': anomaly,
-                'img_path': os.path.join(self.root, img_path), "cls_id": cls_id}    
+                'img_path': os.path.join(self.root, img_path), "cls_id": cls_id, 'seg_valid': seg_valid}    

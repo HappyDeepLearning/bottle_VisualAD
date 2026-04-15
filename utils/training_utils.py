@@ -100,14 +100,23 @@ def check_for_nan(tensor, name, logger, epoch=None):
     return False
 
 
-def compute_segmentation_loss(similarity_map_list, gt, loss_focal, loss_dice):
+def compute_segmentation_loss(similarity_map_list, gt, loss_focal, loss_dice, valid_mask=None):
     """Compute segmentation loss from similarity maps"""
+    if valid_mask is not None:
+        valid_mask = valid_mask.to(gt.device).bool().view(-1)
+        if not valid_mask.any():
+            return torch.tensor(0.0, device=gt.device, requires_grad=False)
+
     seg_losses = []
     for similarity_map in similarity_map_list:
+        current_map = similarity_map[valid_mask] if valid_mask is not None else similarity_map
+        current_gt = gt[valid_mask] if valid_mask is not None else gt
+        if current_map.numel() == 0:
+            continue
         # Hardcoded: beta_focal=1.0, beta_dice=1.0
-        seg_losses.append(loss_focal(similarity_map, gt))
+        seg_losses.append(loss_focal(current_map, current_gt))
         # Only use anomaly channel to avoid double-counting (since channel 0 = 1 - channel 1)
-        seg_losses.append(loss_dice(similarity_map[:, 1, :, :], gt))
+        seg_losses.append(loss_dice(current_map[:, 1, :, :], current_gt))
     return sum(seg_losses) if seg_losses else torch.tensor(0.0, device=gt.device, requires_grad=False)
 
 

@@ -17,8 +17,7 @@ import os
 import random
 from utils.transforms import get_transform
 from utils.scoring import reduce_anomaly_map, DEFAULT_TOPK_RATIO
-torch.use_deterministic_algorithms(True,warn_only=False)
-def setup_seed(seed):
+def setup_seed(seed, deterministic_warn_only=True):
     torch.manual_seed(seed)
     torch.cuda.manual_seed_all(seed)
     np.random.seed(seed)
@@ -26,7 +25,7 @@ def setup_seed(seed):
     torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.benchmark = False
     # Additional deterministic settings
-    torch.use_deterministic_algorithms(True, warn_only=False)
+    torch.use_deterministic_algorithms(True, warn_only=deterministic_warn_only)
     import os
     os.environ['PYTHONHASHSEED'] = str(seed)
     os.environ['CUBLAS_WORKSPACE_CONFIG'] = ':16:8'
@@ -116,6 +115,10 @@ def compute_classification_loss_V2(anomaly_maps_list, labels, device):
 def train(args):
     logger = get_logger(args.save_path)
     device = args.device
+    if args.strict_determinism:
+        logger.info("Deterministic mode: strict")
+    else:
+        logger.info("Deterministic mode: warn_only")
 
     # Load and setup model
     try:
@@ -146,8 +149,15 @@ def train(args):
 
     # Load dataset
     train_data = Dataset(root=args.train_data_path, transform=preprocess,
-                       target_transform=target_transform, dataset_name=args.train_dataset)
+                       target_transform=target_transform, dataset_name=args.train_dataset, mode='train')
     train_dataloader = torch.utils.data.DataLoader(train_data, batch_size=args.batch_size, shuffle=True)
+    use_segmentation_loss = (not args.classification_only) and train_data.has_anomaly_masks
+    if args.classification_only:
+        logger.info("Classification-only mode enabled. Segmentation loss is disabled.")
+    elif not train_data.has_anomaly_masks:
+        logger.info("No valid anomaly masks found in training data. Segmentation loss is disabled automatically.")
+    else:
+        logger.info("Valid anomaly masks detected. Segmentation loss remains enabled.")
 
     # Setup feature transforms and model training
     feature_dim = model.visual.embed_dim
@@ -162,9 +172,12 @@ def train(args):
     scaler = GradScaler(enabled=amp_enabled)
 
     # Initialize losses
-    loss_focal = FocalLoss()
-    loss_dice = BinaryDiceLoss()
+    loss_focal = FocalLoss() if use_segmentation_loss else None
+    loss_dice = BinaryDiceLoss() if use_segmentation_loss else None
     loss_token_relation = ContrastiveLoss(temperature=0.1, margin=0.5)
+    accumulation_steps = max(1, args.accumulation_steps)
+    if accumulation_steps > 1:
+        logger.info(f"Gradient accumulation enabled: {accumulation_steps} steps")
     
     for epoch in tqdm(range(args.epoch)):
         # Keep model in train mode for gradient computation
@@ -173,12 +186,14 @@ def train(args):
         loss_list = []
         image_loss_list = []
         token_relation_loss_list = []
+        optimizer.zero_grad(set_to_none=True)
 
-        for items in tqdm(train_dataloader):
+        for step_idx, items in enumerate(tqdm(train_dataloader), start=1):
             image = items['img'].to(device)
             label = items['anomaly']
             # Squeeze only the channel dimension (dim=1), preserve batch dimension
             gt = items['img_mask'].squeeze(1).to(device)  # [B, 1, H, W] -> [B, H, W]
+            seg_valid = items['seg_valid']
             gt[gt > 0.5] = 1
             gt[gt <= 0.5] = 0
 
@@ -241,9 +256,10 @@ def train(args):
                     )
 
                     # For Segmentation Loss
-                    anomaly_map_sigmoid = torch.sigmoid(anomaly_map)
-                    similarity_map = torch.stack([1 - anomaly_map_sigmoid, anomaly_map_sigmoid], dim=1)
-                    similarity_map_list.append(similarity_map)
+                    if use_segmentation_loss:
+                        anomaly_map_sigmoid = torch.sigmoid(anomaly_map)
+                        similarity_map = torch.stack([1 - anomaly_map_sigmoid, anomaly_map_sigmoid], dim=1)
+                        similarity_map_list.append(similarity_map)
 
                     # For Classification Loss (reuse same anomaly_map)
                     anomaly_maps_list.append(anomaly_map)
@@ -253,8 +269,10 @@ def train(args):
                     return None
 
                 seg_val = torch.tensor(0.0, device=device)
-                if similarity_map_list and (anomaly_features.requires_grad or normal_features.requires_grad):
-                    seg_val = compute_segmentation_loss(similarity_map_list, gt, loss_focal, loss_dice)
+                if use_segmentation_loss and similarity_map_list and (anomaly_features.requires_grad or normal_features.requires_grad):
+                    seg_val = compute_segmentation_loss(
+                        similarity_map_list, gt, loss_focal, loss_dice, valid_mask=seg_valid
+                    )
 
                 loss_components = []
                 if image_val.requires_grad:
@@ -271,7 +289,6 @@ def train(args):
                 total = sum(loss_components)
                 return total, seg_val, image_val, token_relation_val
 
-            optimizer.zero_grad(set_to_none=True)
             with autocast(enabled=amp_enabled):
                 result = compute_losses()
 
@@ -284,27 +301,33 @@ def train(args):
             seg_loss_value = float(seg_loss_val.detach().item())
             image_loss_value = float(image_loss_val.detach().item())
             token_relation_loss_value = float(token_relation_loss_val.detach().item())
+            loss_for_backward = total_loss / accumulation_steps
 
             if amp_enabled:
-                scaler.scale(total_loss).backward()
-                scaler.unscale_(optimizer)
+                scaler.scale(loss_for_backward).backward()
             else:
-                total_loss.backward()
+                loss_for_backward.backward()
 
-            # Validate gradients after backward pass
-            if not validate_gradients(model, logger, epoch):
+            should_step = (step_idx % accumulation_steps == 0) or (step_idx == len(train_dataloader))
+            if should_step:
+                if amp_enabled:
+                    scaler.unscale_(optimizer)
+
+                # Validate gradients after backward pass
+                if not validate_gradients(model, logger, epoch):
+                    optimizer.zero_grad(set_to_none=True)
+                    continue
+
+                if amp_enabled:
+                    scaler.step(optimizer)
+                    scaler.update()
+                else:
+                    optimizer.step()
                 optimizer.zero_grad(set_to_none=True)
-                continue
 
-            if amp_enabled:
-                scaler.step(optimizer)
-                scaler.update()
-            else:
-                optimizer.step()
-
-            if check_for_nan(model.visual.anomaly_token, "anomaly_token after update", logger, epoch) or \
-               check_for_nan(model.visual.normal_token, "normal_token after update", logger, epoch):
-                break
+                if check_for_nan(model.visual.anomaly_token, "anomaly_token after update", logger, epoch) or \
+                   check_for_nan(model.visual.normal_token, "normal_token after update", logger, epoch):
+                    break
 
             loss_list.append(seg_loss_value)
             image_loss_list.append(image_loss_value)
@@ -349,8 +372,14 @@ if __name__ == '__main__':
     parser.add_argument("--save_freq", type=int, default=1, help="save frequency")
     parser.add_argument("--seed", type=int, default=111, help="random seed")
     parser.add_argument("--device", type=str, default="cuda:1", help="device to use")
+    parser.add_argument("--classification_only", action="store_true",
+                        help="disable segmentation loss and train only with image-level labels")
+    parser.add_argument("--strict_determinism", action="store_true",
+                        help="fail on nondeterministic CUDA ops instead of warning")
+    parser.add_argument("--accumulation_steps", type=int, default=1,
+                        help="number of gradient accumulation steps")
 
     args = parser.parse_args()
-    setup_seed(args.seed)
+    setup_seed(args.seed, deterministic_warn_only=not args.strict_determinism)
     device = torch.device(args.device)
     train(args)
